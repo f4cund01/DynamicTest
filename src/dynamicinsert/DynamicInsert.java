@@ -54,13 +54,13 @@ public class DynamicInsert {
                        catch (Exception e) {
                             System.out.println(e);
                             }
-            }//System.out.println(s.GenStatement("prueba", x1));
+            }
           try {
             
             s.Insert("dyn", x1, x2);
         } catch (SQLException ex) {
             Logger.getLogger(DynamicInsert.class.getName()).log(Level.SEVERE, null, ex);
         }
-
+	JOptionPane.ShowMessageDialog(null,"Muestra mensaje ganador");
     }
 }
